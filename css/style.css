@@ -1,0 +1,242 @@
+/* General Style */
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f6fa;
+    font-family: Arial, sans-serif;
+    color: #17324d;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #1c4e80;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.header-title {
+    margin-bottom: 10px;
+}
+
+.header-job {
+    color: #d5e7f7;
+}
+
+.header-links {
+    margin-top: 25px;
+}
+
+.header-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #315f8d;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+
+/* Common Sections */
+
+.section {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    
+    
+}
+
+.section-title {
+    color: #174a7e;
+    border-bottom: 1px solid #d5e5f5;
+    padding-bottom: 12px;
+}
+
+
+/* About Section */
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.about-image {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    
+}
+
+
+
+.github-button {
+    display: inline-block;
+    background-color: #0872b9;
+    color: white;
+    
+    padding: 12px 18px;
+    border-radius: 7px;
+}
+
+
+/* Skills Section */
+
+.skills-description {
+    margin-bottom: 25px;
+}
+
+.skills-content {
+    display: flex;  
+    padding: 5px;
+}
+
+.skill-box {
+    background-color: #f8fbff;
+    border: 1px solid #e0ebf7;
+    padding: 15px;
+    border-radius: 12px;
+    
+}
+
+.skill-box h3 {
+    color: #0872b9;
+}
+
+
+
+
+/* Experience Section */
+
+.experience-box {
+    background-color: #f7f9fc;
+    border: 1px solid #e0eaf5;
+    border-left: 3px solid #0872b9;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+
+/* Experience Section */
+
+.experience-box {
+    background-color: #f7f9fc;
+    border: 1px solid #e0eaf5;
+    border-left: 3px solid #0872b9;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    display: flex;
+    
+
+}
+
+.experience-image {
+    width: 55px;
+    height: 55px;
+    
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #d5e5f5;
+    border-radius: 10px;
+    
+}
+
+ 
+
+.experience-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.company-name {
+    color: #0872b9;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    
+    margin-bottom: 10px;
+}
+
+.experience-date {
+    font-size: 14px;
+    color: #52677d;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Education Section */
+
+.education-box {
+    background-color: #f8fbff;
+    border: 1px solid #e0ebf7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.education-box h3 {
+    color: #0872b9;
+}
+
+
+
+
+/* Contact Section */
+
+.contact {
+    background-color: #1c4e80;
+    color: white;
+}
+
+.contact .section-title {
+    color: white;
+    border-bottom-color: #52779b;
+}
+
+
+
+.contact-links {
+    margin-top: 15px;
+}
+
+.contact-link {
+    display: inline-block;
+    color: white;
+    
+    background-color: #315f8d;
+    border: 1px solid #52779b;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #081d38;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    width: 80%;
+    margin: 20px auto 0;
+    border-radius: 12px;
+    
+}
+
+.footer-text {
+    margin: 0;
+}
